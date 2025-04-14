@@ -11,3 +11,25 @@
 
     font-family: "DM Sans", sans-serif;
 */
+
+@media screen and (min-width: 1024px){
+    main {
+        grid-template-areas: 
+        'caixa0 caixa1'
+        'caixa2 caixa2'
+        ;
+    }
+
+    div#cx0 {
+        grid-area: caixa0;
+    }
+
+    div#cx1 {
+        grid-area: caixa1;
+    }
+
+    div#cx2 {
+        grid-area: caixa2;
+    }
+}
+
